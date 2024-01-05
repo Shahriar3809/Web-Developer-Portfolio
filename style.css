@@ -99,17 +99,18 @@ nav li a {
 
 /* Main Menu Styles */
 
-
+main {
+    max-width: 1140px;
+    margin: auto;
+}
 /* About Section */
 .about {
     padding: 131px;
     border-radius: 10px;
     background: #FFF8F3;
     border-radius: 10px;
-    width: 1140px;
-    height: 550px;
     text-align: center;
-    margin: 130px auto;
+    margin: 130px 0;
 }
 
 .section-des {
@@ -119,6 +120,7 @@ nav li a {
     font-weight: 400;
     line-height: 30px;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 
@@ -126,5 +128,22 @@ nav li a {
     color: #181818;
     text-align: center;
     font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title {
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.info-description {
+    margin-top: 5px;
     font-weight: 700;
 }
