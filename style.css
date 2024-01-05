@@ -147,3 +147,27 @@ main {
     margin-top: 5px;
     font-weight: 700;
 }
+
+
+
+
+
+/* What i do style */
+
+.section-description {
+    padding: 30px 150px;
+}
+
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.skill {
+    width: 267px;
+    padding: 33px;
+    background: #dcc7c7;
+    margin: 5px;
+}
