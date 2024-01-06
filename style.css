@@ -195,3 +195,31 @@ main {
     font-size: 30px;
     font-weight: 700;
 }
+
+.resume-container {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    /* justify-content: space-between; */
+}
+
+.resume-item-ins, .resume-item-des {
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.resume-item-title {
+    margin-top: 25px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-item-des {
+    margin-bottom: 30px;
+    width: 80%;
+}
+.resume-btn {
+    text-align: center;
+    margin-top: 50px;
+}
