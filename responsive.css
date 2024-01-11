@@ -1,0 +1,95 @@
+@media screen and (max-width: 576px) {
+.header {
+    background-image: none;
+}
+
+.banner .profile-picture {
+    width: 100%;
+    
+}
+nav, nav ul {
+    padding: 20px 0px;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 10px;
+    gap: 20px;
+}
+
+nav ul li {
+    text-align: center;
+    margin-right: 0px;
+}
+
+.banner {
+    flex-direction: column;
+    padding: 0px 20px;
+}
+
+.banner-content h1, h3 {
+    text-align: center;
+}
+.btn-primary {
+    margin-top: 15px;
+}
+.about {
+    padding: 10px;
+}
+
+.about-info-container {
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+
+.skills-container {
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.section-description {
+    padding: 30px;
+}   
+    
+.section-title {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.resume-container {
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+footer {
+    flex-direction: column;
+    padding: 10px;
+}
+.footer-column {
+    width: 100%;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.contact-form input[type="text"], input[type="email"], textarea {
+    padding: 18px 20px;
+    box-sizing: border-box;
+}
+
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  .banner {
+    flex-direction: column;
+  }  
+
+}
